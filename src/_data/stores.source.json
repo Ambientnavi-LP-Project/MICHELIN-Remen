@@ -34,7 +34,7 @@
       "courses": []
     },
     {
-      "slug": "ponto1",
+      "slug": "ponto2",
       "region": "kyoto",
       "kind": "burger",
       "area": "Kyoto",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "slug": "ponto2",
+      "slug": "ponto1",
       "region": "kyoto",
       "kind": "ramen",
       "area": "Kawaramachi",

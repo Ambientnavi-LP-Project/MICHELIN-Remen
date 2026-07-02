@@ -6,7 +6,7 @@
     {
       "source": "/",
       "has": [{ "type": "host", "value": "michelin-burger.halal-food-wagyu.com" }],
-      "destination": "/kyoto/ponto1/"
+      "destination": "/kyoto/ponto2/"
     }
   ]
 }
