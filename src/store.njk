@@ -970,7 +970,6 @@ footer p { font-size: 12px; opacity: 0.7; line-height: 1.7; }
         <div class="menu-card reveal">
           <p class="menu-card-eyebrow">Course · {{ course.name }}</p>
           <h3 class="menu-card-title">{{ course.name }}</h3>
-          {% if course.kanji %}<div class="menu-card-kanji" aria-hidden="true">{{ course.kanji }}</div>{% endif %}
           <div class="menu-card-rule"></div>
           <ol class="menu-list">
             {% for item in course.items %}
