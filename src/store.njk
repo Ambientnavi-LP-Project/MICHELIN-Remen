@@ -673,6 +673,7 @@ permalink: "/{{ store.region }}/{{ store.slug }}/index.html"
       <div class="access-map reveal">
         <iframe src="{{ store.maps_embed }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ store.name_short }} — {{ store.area }} map"></iframe>
       </div>
+      {% if store.maps_link %}<p style="text-align:center;margin-top:14px;"><a href="{{ store.maps_link }}" target="_blank" rel="noopener" style="font-family:'Oswald',sans-serif;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:var(--red);text-decoration:none;">Open in Google Maps →</a></p>{% endif %}
       {% endif %}
     </div>
   </section>
