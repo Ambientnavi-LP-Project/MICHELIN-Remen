@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npx @11ty/eleventy",
+  "outputDirectory": "_site",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "michelin-burger.halal-food-wagyu.com" }],
+      "destination": "/kyoto/ponto1/"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "domain": "https://michelin-ramen.halal-food-wagyu.com",
+  "stores": [
+    {
+      "slug": "namba",
+      "region": "osaka",
+      "kind": "ramen",
+      "area": "Dotonbori",
+      "name_short": "King Wagyu Ramen",
+      "name_full_en": "King Wagyu Ramen Michelin Chef Supervised Halal Dotonbori Restaurant",
+      "name_cn": "米其林厨师监督和牛拉面",
+      "floor": "1F",
+      "address_jp": "〒542-0071 大阪府大阪市中央区道頓堀２丁目１−３ パークランドビル 1F",
+      "address_en": "1F, Parkland Building, 2-1-3 Dotonbori, Chuo-ku, Osaka",
+      "postal": "〒542-0071 Osaka, Japan",
+      "hours": "10:00 — 23:00",
+      "tel_display": "070-2388-4392",
+      "tel_raw": "817023884392",
+      "tel_display2": "",
+      "tel_raw2": "",
+      "maps_embed": "",
+      "maps_link": "",
+      "tablecheck_url": "",
+      "hero_image": "/assets/ramen1.jpg",
+      "gallery_eyebrow": "The Bowl",
+      "gallery_title": "A study in detail",
+      "gallery": [
+        { "img": "/assets/ramen1.jpg", "label": "The signature bowl" },
+        { "img": "/assets/wagyu-raw-hero.jpg", "label": "Wagyu" },
+        { "img": "/assets/ramen.jpg", "label": "The broth" }
+      ],
+      "course_eyebrow": "",
+      "course_title": "",
+      "courses": []
+    },
+    {
+      "slug": "ponto1",
+      "region": "kyoto",
+      "kind": "burger",
+      "area": "Kyoto",
+      "name_short": "King Wagyu Burger",
+      "name_full_en": "King Wagyu Burger Michelin Chef Supervised Halal Kyoto Restaurant",
+      "name_cn": "米其林厨师监督和牛汉堡",
+      "floor": "1F",
+      "address_jp": "〒604-8016 京都府京都市中京区下樵木町１９１−６ 1F",
+      "address_en": "1F, 191-6 Shimokoroginocho, Nakagyo-ku, Kyoto",
+      "postal": "〒604-8016 Kyoto, Japan",
+      "hours": "11:00 — 23:00",
+      "tel_display": "080-6295-0185",
+      "tel_raw": "818062950185",
+      "tel_display2": "",
+      "tel_raw2": "",
+      "maps_embed": "",
+      "maps_link": "",
+      "tablecheck_url": "https://tablecheck.com/halal-wagyu-kyoto-ponto",
+      "hero_image": "/assets/wagyu-steak-rice-bowl.jpg",
+      "gallery_eyebrow": "The Plate",
+      "gallery_title": "A study in detail",
+      "gallery": [
+        { "img": "/assets/wagyu-steak-rice-bowl.jpg", "label": "The signature plate" },
+        { "img": "/assets/wagyu-raw-hero.jpg", "label": "Wagyu" },
+        { "img": "/assets/steak.jpg", "label": "Seared to order" }
+      ],
+      "course_eyebrow": "The Course",
+      "course_title": "Burger Course",
+      "courses": [
+        {
+          "name": "Gold",
+          "items": [
+            { "jp": "前菜三種", "en": "Three appetizers" },
+            { "jp": "サーモンとアボカドの瞬間燻製", "en": "Flash-smoked salmon & avocado" },
+            { "jp": "牛バラの炙り キャビア乗せ", "en": "Seared beef short rib, caviar" },
+            { "jp": "和牛バーガー ／ 照り焼きオーロラソースバーガー", "en": "Wagyu burger / Teriyaki aurora-sauce burger" },
+            { "jp": "デザート", "en": "Dessert" }
+          ]
+        },
+        {
+          "name": "Platinum",
+          "items": [
+            { "jp": "前菜三種", "en": "Three appetizers" },
+            { "jp": "サーモンとアボカドの瞬間燻製", "en": "Flash-smoked salmon & avocado" },
+            { "jp": "牛バラの炙り キャビア乗せ", "en": "Seared beef short rib, caviar" },
+            { "jp": "和牛バーガー", "en": "Wagyu burger", "sub": [
+              { "jp": "照り焼きオーロラソースバーガー", "en": "Teriyaki aurora-sauce burger" },
+              { "jp": "焦がし醤油バーガー", "en": "Burnt-soy burger" }
+            ] },
+            { "jp": "デザート", "en": "Dessert" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ponto2",
+      "region": "kyoto",
+      "kind": "ramen",
+      "area": "Kawaramachi",
+      "name_short": "King Wagyu Ramen",
+      "name_full_en": "Michelin Chef Supervised King Wagyu Ramen Halal kawaramachi Restaurant",
+      "name_cn": "米其林厨师和牛拉面",
+      "floor": "2F",
+      "address_jp": "〒604-8016 京都府京都市中京区下樵木町１９１−６ 2F",
+      "address_en": "2F, 191-6 Shimokoroginocho, Nakagyo-ku, Kyoto",
+      "postal": "〒604-8016 Kyoto, Japan",
+      "hours": "11:00 — 23:00",
+      "tel_display": "080-6295-0185",
+      "tel_raw": "818062950185",
+      "tel_display2": "090-3787-5518",
+      "tel_raw2": "819037875518",
+      "maps_embed": "",
+      "maps_link": "",
+      "tablecheck_url": "https://tablecheck.com/halal-wagyu-kyoto-ponto",
+      "hero_image": "/assets/ramen.jpg",
+      "gallery_eyebrow": "The Bowl",
+      "gallery_title": "A study in detail",
+      "gallery": [
+        { "img": "/assets/ramen1.jpg", "label": "The signature bowl" },
+        { "img": "/assets/wagyu-raw-hero.jpg", "label": "Wagyu" },
+        { "img": "/assets/ramen.jpg", "label": "The broth" }
+      ],
+      "course_eyebrow": "The Course",
+      "course_title": "Ramen Course",
+      "courses": [
+        {
+          "name": "Gold",
+          "items": [
+            { "jp": "前菜三種", "en": "Three appetizers" },
+            { "jp": "サーモンとアボカドの瞬間燻製", "en": "Flash-smoked salmon & avocado" },
+            { "jp": "牛バラの炙り キャビア乗せ", "en": "Seared beef short rib, caviar" },
+            { "jp": "牛骨ラーメン 塩", "en": "Beef-bone ramen, salt" },
+            { "jp": "デザート", "en": "Dessert" }
+          ]
+        },
+        {
+          "name": "Platinum",
+          "items": [
+            { "jp": "前菜三種", "en": "Three appetizers" },
+            { "jp": "サーモンとアボカドの瞬間燻製", "en": "Flash-smoked salmon & avocado" },
+            { "jp": "牛バラの炙り キャビア乗せ", "en": "Seared beef short rib, caviar" },
+            { "jp": "牛骨ラーメン", "en": "Beef-bone ramen", "sub": [
+              { "jp": "牛骨ラーメン 塩", "en": "Salt" },
+              { "jp": "スパイシー", "en": "Spicy" }
+            ] },
+            { "jp": "デザート", "en": "Dessert" }
+          ]
+        }
+      ]
+    }
+  ]
+}
