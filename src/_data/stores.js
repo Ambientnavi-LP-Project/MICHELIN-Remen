@@ -173,7 +173,11 @@ module.exports = {
       rating_count: "",
       maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8280.634467488455!2d135.7710374!3d35.00671450000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109f8ec8e546d%3A0xb4bace007b0c3c15!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyICYgU3RlYWsgUG9udG8gUmVzdGF1cmFudCDkuqzpg70g5YWI5paX55S6IOWSjOeJmyDppJDljoU!5e1!3m2!1sja!2sjp!4v1782965146512!5m2!1sja!2sjp",
       maps_link: "https://maps.app.goo.gl/1epzSeQYAjDMo73y9",
-      hero_image: "",
+      hero_image: "/assets/burger-shoyu.jpg",
+      gallery_images: [
+        { img: "/assets/burger-teriyaki.jpg", label: "Teriyaki aurora" },
+        { img: "/assets/burger-shoyu.jpg", label: "Burnt soy" }
+      ],
       courses: [
         {
           name: "Gold",

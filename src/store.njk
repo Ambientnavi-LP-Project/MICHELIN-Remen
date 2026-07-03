@@ -456,6 +456,16 @@ section { padding: 80px 24px; }
   color: var(--white);
   text-shadow: 0 2px 12px rgba(0,0,0,0.6);
 }
+.gallery-pair { display: grid; grid-template-columns: 1fr; gap: 14px; padding: 0 24px; }
+.gallery-cell {
+  position: relative;
+  width: 100%; height: 52vh; max-height: 440px;
+  background-size: cover; background-position: center;
+}
+@media (min-width: 700px) {
+  .gallery-pair { grid-template-columns: 1fr 1fr; }
+  .gallery-cell { height: 48vh; max-height: 460px; }
+}
 
 /* ============ FARM / BUTCHER ============ */
 .farm { padding: 0; background: var(--cream); }
@@ -938,9 +948,19 @@ footer p { font-size: 12px; opacity: 0.7; line-height: 1.7; }
       <p class="eyebrow reveal">The Bowl</p>
       <h2 class="section-title reveal">A study in detail</h2>
     </div>
+    {% if store.gallery_images and store.gallery_images.length %}
+    <div class="gallery-pair">
+      {% for g in store.gallery_images %}
+      <div class="gallery-cell reveal" style="background-image: url('{{ g.img }}');">
+        {% if g.label %}<span class="gallery-label">{{ g.label }}</span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
     <div class="gallery-big reveal" style="background-image: url('{{ store.hero_image }}');">
       <span class="gallery-label">The signature bowl</span>
     </div>
+    {% endif %}
   </section>
 
   <!-- FARM / BUTCHER -->
