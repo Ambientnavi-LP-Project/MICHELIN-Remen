@@ -7,7 +7,7 @@ module.exports = {
   brand: {
     // 業態(サブドメイン)レベルの共通設定
     domain: "michelin-ramen.halal-food-wagyu.com",
-    ga4_id: "", // ← 後で GA4 測定IDを入れてください
+    // GA4への送信はGTMコンテナ(GTM-5DGT9H6L)側で行うため、ここに測定IDは持たない
     brand_name: "Michelin Ramen",
     brand_slug: "michelin-ramen"
   },
@@ -44,6 +44,7 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       // ===== 予約・SNS =====
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-namba/reserve",
       instagram_url: "",
       instagram_handle: "",
@@ -107,6 +108,7 @@ module.exports = {
       facilities_main: "Halal-friendly menu · Takeout available · Free Wi-Fi",
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://tablecheck.com/halal-wagyu-kyoto-ponto",
       instagram_url: "",
       instagram_handle: "",
@@ -166,6 +168,7 @@ module.exports = {
       facilities_main: "Halal-friendly menu · Takeout available · Free Wi-Fi",
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
+      reserve_system: "tablecheck",  // "tablecheck" | "form"
       tablecheck_url: "https://tablecheck.com/halal-wagyu-kyoto-ponto",
       instagram_url: "",
       instagram_handle: "",
