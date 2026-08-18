@@ -45,7 +45,7 @@ module.exports = {
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       // ===== 予約・SNS =====
       reserve_system: "tablecheck",  // "tablecheck" | "form"
-      tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-namba/reserve",
+      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-namba/reserve/message",
       instagram_url: "",
       instagram_handle: "",
       // ===== 評価 =====
@@ -109,7 +109,7 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       reserve_system: "tablecheck",  // "tablecheck" | "form"
-      tablecheck_url: "https://tablecheck.com/halal-wagyu-kyoto-ponto",
+      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
       instagram_url: "",
       instagram_handle: "",
       rating: "",
@@ -169,7 +169,7 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       reserve_system: "tablecheck",  // "tablecheck" | "form"
-      tablecheck_url: "https://tablecheck.com/halal-wagyu-kyoto-ponto",
+      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
       instagram_url: "",
       instagram_handle: "",
       rating: "",
