@@ -7,7 +7,7 @@ permalink: "/{{ store.region }}/{{ store.slug }}/index.html"
 eleventyComputed:
   title: "{{ store.name_full_en }}"
 ---
-{% if store.tablecheck_url %}{% set resHref = store.tablecheck_url + "?utm_source=hp" %}{% set resExt = true %}{% else %}{% set resHref = "tel:+" + store.tel_raw %}{% set resExt = false %}{% endif %}
+{% if store.tablecheck_url %}{% set resHref = store.tablecheck_url %}{% set resExt = true %}{% else %}{% set resHref = "tel:+" + store.tel_raw %}{% set resExt = false %}{% endif %}
 {# 予約CTAの計測イベント名。外部予約サイトなら reserve_click、電話フォールバックなら tel_click #}
 {% if store.tablecheck_url %}{% set resEvent = "reserve_click" %}{% else %}{% set resEvent = "tel_click" %}{% endif %}
 <!DOCTYPE html>
