@@ -44,7 +44,7 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       // ===== 予約・SNS =====
-      reserve_system: "tablecheck",  // "tablecheck" | "form"
+      reserve_system: "tablecheck",  // "tablecheck" | "form" | "tel"
       tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-namba/reserve/message",
       instagram_url: "",
       instagram_handle: "",
@@ -108,7 +108,7 @@ module.exports = {
       facilities_main: "Halal-friendly menu · Takeout available · Free Wi-Fi",
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
-      reserve_system: "tablecheck",  // "tablecheck" | "form"
+      reserve_system: "tablecheck",  // "tablecheck" | "form" | "tel"
       tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
       instagram_url: "",
       instagram_handle: "",
@@ -168,7 +168,7 @@ module.exports = {
       facilities_main: "Halal-friendly menu · Takeout available · Free Wi-Fi",
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
-      reserve_system: "tablecheck",  // "tablecheck" | "form"
+      reserve_system: "tablecheck",  // "tablecheck" | "form" | "tel"
       tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
       instagram_url: "",
       instagram_handle: "",
@@ -201,6 +201,77 @@ module.exports = {
             "Salmon &amp; avocado, instant-smoked",
             "Seared wagyu belly with caviar",
             "Wagyu burger (choice of two: Teriyaki aurora / Burnt soy)",
+            "Dessert"
+          ]
+        }
+      ]
+    },
+    {
+      // ===== 新宿東口 1F ラーメン =====
+      // ===== URL / 識別 =====
+      region: "tokyo",
+      slug: "shinjuku",
+      pref: "Tokyo",
+      // ===== 店名 =====
+      name_full_en: "King Wagyu Ramen Michelin Chef Supervised Kobe Beef Halal Shinjuku Restaurant 和牛拉面",
+      name_short: "King Wagyu Ramen",
+      name_cn: "和牛拉面",
+      name_meta: "King Wagyu Ramen · Shinjuku · Halal",
+      // ===== 立地 =====
+      city: "Shinjuku",
+      station_en: "Shinjuku Station (East Exit)",
+      station_jp: "新宿駅 東口",
+      address_en: "Toshin Building 1F, 3-21-7 Shinjuku, Shinjuku-ku, Tokyo",
+      address_postal: "160-0022",
+      // ===== 連絡先 =====
+      tel_display: "090-4129-6646",
+      tel_raw: "819041296646",
+      email: "",
+      // ===== 営業 =====
+      hours: "11:00 – 23:00",
+      hours_short: "11–23",
+      hours_note: "",
+      hours_special: "",
+      // ===== 席・施設 =====
+      seats: "7 seats",
+      seats_note: "",
+      facilities_main: "Halal-friendly menu · Takeout available · Free Wi-Fi",
+      facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
+      payment_note: "Cashless only — credit cards and mobile payments accepted",
+      // ===== 予約・SNS =====
+      reserve_system: "tel",   // "tablecheck" | "form" | "tel" ← 電話予約案内
+      tablecheck_url: "",
+      instagram_url: "",
+      instagram_handle: "",
+      // ===== 評価 =====
+      rating: "",
+      rating_count: "",
+      // ===== Maps =====
+      maps_embed: "",          // 空 = 地図セクション非表示
+      maps_link: "",           // 空 = 地図リンク非表示
+      // ===== Hero image =====
+      hero_image: "/assets/ramen1.jpg",
+      // ===== Menu (course-only) =====
+      courses: [
+        {
+          name: "Gold",
+          kanji: "金",
+          items: [
+            "Three appetisers",
+            "Salmon &amp; avocado, instant-smoked",
+            "Seared wagyu belly with caviar",
+            "Wagyu bone broth ramen — Shio",
+            "Dessert"
+          ]
+        },
+        {
+          name: "Platinum",
+          kanji: "白 金",
+          items: [
+            "Three appetisers",
+            "Salmon &amp; avocado, instant-smoked",
+            "Seared wagyu belly with caviar",
+            "Wagyu bone broth ramen (choice of two: Shio / Spicy)",
             "Dessert"
           ]
         }
