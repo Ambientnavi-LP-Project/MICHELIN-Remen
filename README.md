@@ -94,3 +94,10 @@ GTM 側で URL（ホスト名／パス）から解決する。
 | `maps_embed` | 地図の埋め込みURL（`<iframe>` の `src=` の中身だけ。タグごと貼らない） |
 
 `brand` に GA4 測定ID（`ga4_id`）は持たない。GA4への送信は GTM 側で設定する。
+
+## 計測要件
+
+LPの作成・デザイン変更・テンプレート追加を行う際は、必ず以下を参照すること。
+CTAの書き方やTableCheckのURL指定を誤ると、広告のコンバージョン計測が停止する。
+
+https://github.com/Ambientnavi-LP-Project/omakase/blob/main/docs/LP%E4%BD%9C%E6%88%90%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88.md
