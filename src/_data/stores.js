@@ -247,8 +247,8 @@ module.exports = {
       rating: "",
       rating_count: "",
       // ===== Maps =====
-      maps_embed: "",          // 空 = 地図セクション非表示
-      maps_link: "",           // 空 = 地図リンク非表示
+      maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.088157969093!2d139.7017737096774!3d35.69293904075302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d01e1f5b04f%3A0x8fe74faa3f388eb3!2sKing%20Wagyu%20Ramen%20Michelin%20Chef%20Supervised%20Kobe%20Beef%20Halal%20Shinjuku%20Restaurant%20%E5%92%8C%E7%89%9B%E6%8B%89%E9%9D%A2!5e0!3m2!1sja!2sjp!4v1788765986515!5m2!1sja!2sjp",
+      maps_link: "https://maps.app.goo.gl/Gx9ovQd58HT4o4kRA",
       // ===== Hero image =====
       hero_image: "/assets/ramen1.jpg",
       // ===== Menu (course-only) =====
