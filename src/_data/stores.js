@@ -239,8 +239,8 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       // ===== 予約・SNS =====
-      reserve_system: "tel",   // "tablecheck" | "form" | "tel" ← 電話予約案内
-      tablecheck_url: "",
+      reserve_system: "tablecheck",
+      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-shinjuku-higashi/reserve/message",
       instagram_url: "",
       instagram_handle: "",
       // ===== 評価 =====
