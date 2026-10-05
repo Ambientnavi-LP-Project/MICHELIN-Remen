@@ -33,8 +33,8 @@ module.exports = {
       tel_raw: "817023884392",
       email: "",
       // ===== 営業 =====
-      hours: "10:00 – 23:00",
-      hours_short: "10–23",
+      hours: "11:00 – 23:00",
+      hours_short: "11–23",
       hours_note: "",
       hours_special: "",
       // ===== 席・施設 =====
