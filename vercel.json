@@ -5,8 +5,25 @@
   "rewrites": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "michelin-burger.halal-food-wagyu.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "michelin-burger.halal-food-wagyu.com"
+        }
+      ],
       "destination": "/kyoto/ponto2/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/tokyo/shinjuku",
+      "destination": "https://halal-food-wagyu.com/tokyo/shinjuku-higashiguchi/",
+      "permanent": true
+    },
+    {
+      "source": "/tokyo/shinjuku/",
+      "destination": "https://halal-food-wagyu.com/tokyo/shinjuku-higashiguchi/",
+      "permanent": true
     }
   ]
 }
