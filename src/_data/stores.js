@@ -45,7 +45,7 @@ module.exports = {
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       // ===== 予約・SNS =====
       reserve_system: "tablecheck",  // "tablecheck" | "form" | "tel"
-      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-namba/reserve/message",
+      tablecheck_url: "",
       instagram_url: "",
       instagram_handle: "",
       // ===== 評価 =====
@@ -96,8 +96,8 @@ module.exports = {
       station_jp: "京都河原町駅",
       address_en: "1F, 191-6 Shimokoroginocho, Nakagyo-ku, Kyoto-shi, Kyoto",
       address_postal: "604-8016",
-      tel_display: "080-6295-0185",
-      tel_raw: "818062950185",
+      tel_display: "070-3831-7620",
+      tel_raw: "817038317620",
       email: "",
       hours: "11:00 – 23:00",
       hours_short: "11–23",
@@ -109,7 +109,7 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       reserve_system: "tablecheck",  // "tablecheck" | "form" | "tel"
-      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
+      tablecheck_url: "",
       instagram_url: "",
       instagram_handle: "",
       rating: "",
@@ -154,7 +154,7 @@ module.exports = {
       city: "Kyoto",
       station_en: "Kyoto-Kawaramachi Station",
       station_jp: "京都河原町駅",
-      address_en: "2F, 191-6 Shimokoroginocho, Nakagyo-ku, Kyoto-shi, Kyoto",
+      address_en: "2F, 191-9 Shimokoroginocho, Nakagyo-ku, Kyoto-shi, Kyoto",
       address_postal: "604-8016",
       tel_display: "080-6295-0185",
       tel_raw: "818062950185",
@@ -169,7 +169,7 @@ module.exports = {
       facilities_sub: "Child-friendly · Stroller accessible · Non-smoking · Cashless only",
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       reserve_system: "tablecheck",  // "tablecheck" | "form" | "tel"
-      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
+      tablecheck_url: "",
       instagram_url: "",
       instagram_handle: "",
       rating: "",
@@ -240,7 +240,7 @@ module.exports = {
       payment_note: "Cashless only — credit cards and mobile payments accepted",
       // ===== 予約・SNS =====
       reserve_system: "tablecheck",
-      tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-shinjuku-higashi/reserve/message",
+      tablecheck_url: "",
       instagram_url: "",
       instagram_handle: "",
       // ===== 評価 =====
